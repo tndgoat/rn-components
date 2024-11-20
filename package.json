@@ -1,0 +1,11 @@
+{
+  "name": "@tndgoat/rn-components",
+  "version": "0.0.1",
+  "description": "React Native Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tung Nguyen",
+  "license": "MIT"
+}
