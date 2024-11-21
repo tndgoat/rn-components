@@ -3082,9 +3082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tndgoat/rncomponent@workspace:.":
+"@tndgoat/rncomponents@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@tndgoat/rncomponent@workspace:."
+  resolution: "@tndgoat/rncomponents@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^17.0.2
     "@evilmartians/lefthook": ^1.5.0
