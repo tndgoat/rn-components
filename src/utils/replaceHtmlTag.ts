@@ -1,4 +1,4 @@
-export const replaceHtmlTags = (str: string) => {
+export const replaceHtmlTag = (str: string) => {
   return str
     .replace(/<\/p>/g, '\n')
     .replace(/&nbsp;/g, '')

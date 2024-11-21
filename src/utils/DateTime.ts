@@ -12,6 +12,7 @@ export class DateTime {
       return '';
     }
   };
+
   static CalendarDate = (val: Date) => {
     const date = new Date(val);
 
@@ -19,6 +20,7 @@ export class DateTime {
       date.getMonth() + 1
     )}-${numberToString(date.getDate())}`;
   };
+
   static CalendarDateTime = (val: Date) => {
     const date = new Date(val);
 

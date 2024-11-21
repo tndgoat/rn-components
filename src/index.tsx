@@ -16,15 +16,15 @@ import {
   Text,
 } from './components';
 
+import { numberToString } from './utils/numberToString';
+import { replaceHtmlTag } from './utils/replaceHtmlTag';
+import { replaceName } from './utils/replaceName';
+import { DateTime } from './utils/DateTime';
+import { Validator } from './utils/Validator';
+
 import type { DropdownProps } from './components/Dropdown';
 import type { MenuItem } from './models/MenuProps';
 import type { TextProps } from './components/Text';
-
-import { DateTime } from './utils/DateTime';
-import { numberToString } from './utils/numberToString';
-import { replaceHtmlTags } from './utils/replaceHtmlTags';
-import { replaceName } from './utils/replaceName';
-import { Validator } from './utils/validators';
 
 export {
   Badge,
@@ -42,10 +42,10 @@ export {
   Section,
   Space,
   Text,
-  DateTime,
   numberToString,
-  replaceHtmlTags,
+  replaceHtmlTag,
   replaceName,
+  DateTime,
   Validator,
 };
 
