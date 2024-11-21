@@ -240,13 +240,13 @@ const Input = (props: Props) => {
           <TouchableOpacity onPress={() => setIsShowPass(!isShowPass)}>
             {!isShowPass ? (
               passwordShowHideButton ? (
-                passwordShowHideButton.hide ?? (
+                (passwordShowHideButton.hide ?? (
                   <IonIcons
                     name="eye-off-outline"
                     size={22}
                     color={colors.gray600}
                   />
-                )
+                ))
               ) : (
                 <IonIcons
                   name="eye-off-outline"
@@ -255,9 +255,9 @@ const Input = (props: Props) => {
                 />
               )
             ) : passwordShowHideButton ? (
-              passwordShowHideButton.show ?? (
+              (passwordShowHideButton.show ?? (
                 <IonIcons name="eye-outline" size={22} color={colors.gray600} />
-              )
+              ))
             ) : (
               <IonIcons name="eye-outline" size={22} color={colors.gray600} />
             )}

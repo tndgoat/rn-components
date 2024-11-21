@@ -143,9 +143,9 @@ const Dropdown = (props: DropdownProps) => {
             {loading ? (
               <ActivityIndicator size={22} color={colors.gray} />
             ) : (
-              renderDropdown ?? (
+              (renderDropdown ?? (
                 <>{items.map((item) => renderDropdownItem(item))}</>
-              )
+              ))
             )}
           </View>
         </View>

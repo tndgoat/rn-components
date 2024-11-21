@@ -96,9 +96,9 @@ const CheckboxItem = (props: Props) => {
           true: checkedColor ?? '#1abc9c',
           false: item.children
             ? count > 0 && count > 0 && count < totalChild
-              ? checkedColor ?? '#1abc9c'
-              : unCheckedColor ?? '#bdc3c7'
-            : unCheckedColor ?? '#bdc3c7',
+              ? (checkedColor ?? '#1abc9c')
+              : (unCheckedColor ?? '#bdc3c7')
+            : (unCheckedColor ?? '#bdc3c7'),
         }}
         onValueChange={() => handleCheck(item)}
         value={
