@@ -15,16 +15,13 @@ export const globalStyles = StyleSheet.create({
     color: '#212121',
     flex: 0,
   },
-
   section: {
     paddingHorizontal: 16,
     paddingBottom: 20,
   },
-
   row: {
     flexDirection: 'row',
   },
-
   inputContainer: {
     paddingHorizontal: 12,
     paddingVertical: 8,
@@ -35,7 +32,6 @@ export const globalStyles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-
   shadow: {
     shadowColor: 'rgba(0,0,0,0.35)',
     shadowOffset: {
@@ -46,7 +42,6 @@ export const globalStyles = StyleSheet.create({
     shadowRadius: 6,
     elevation: 8,
   },
-
   input: {
     padding: 0,
     margin: 0,
@@ -63,7 +58,6 @@ export const globalStyles = StyleSheet.create({
   //   borderBottomColor: colors.gray70,
   //   borderBottomWidth: 1,
   // },
-
   tag: {
     paddingVertical: 4,
     paddingHorizontal: 12,
@@ -83,13 +77,11 @@ export const globalStyles = StyleSheet.create({
     borderRadius: 12,
     backgroundColor: 'white',
   },
-
   dot: {
     width: 10,
     height: 10,
     borderRadius: 10,
   },
-
   listItem: {
     padding: 16,
     borderBottomColor: '#e0e0e0',

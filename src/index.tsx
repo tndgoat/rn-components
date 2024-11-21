@@ -2,22 +2,24 @@ import {
   Badge,
   Button,
   Card,
+  CheckboxItem,
+  CheckboxTree,
+  Col,
+  Divider,
+  Dropdown,
   Input,
+  Label,
   Loading,
-  Text,
   Row,
   Section,
   Space,
-  Divider,
-  Col,
-  Dropdown,
+  Text,
 } from './components';
-import CheckboxItem from './components/CheckboxItem';
-import CheckboxTree from './components/CheckboxTree';
+
 import type { DropdownProps } from './components/Dropdown';
-import Label from './components/Label';
-import type { TextProps } from './components/Text';
 import type { MenuItem } from './models/MenuProps';
+import type { TextProps } from './components/Text';
+
 import { DateTime } from './utils/DateTime';
 import { numberToString } from './utils/numberToString';
 import { replaceHtmlTags } from './utils/replaceHtmlTags';
@@ -25,26 +27,26 @@ import { replaceName } from './utils/replaceName';
 import { Validator } from './utils/validators';
 
 export {
+  Badge,
+  Button,
+  Card,
   CheckboxItem,
   CheckboxTree,
+  Col,
+  Divider,
+  Dropdown,
+  Input,
   Label,
+  Loading,
   Row,
+  Section,
   Space,
-  Badge,
+  Text,
   DateTime,
-  Validator,
+  numberToString,
   replaceHtmlTags,
   replaceName,
-  numberToString,
-  Section,
-  Card,
-  Text,
-  Button,
-  Input,
-  Loading,
-  Divider,
-  Col,
-  Dropdown,
+  Validator,
 };
 
-export type { TextProps, MenuItem, DropdownProps };
+export type { DropdownProps, MenuItem, TextProps };
