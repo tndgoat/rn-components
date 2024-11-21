@@ -3082,9 +3082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tndgoat/rncomponents@workspace:.":
+"@tndgoat/rncomponent@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@tndgoat/rncomponents@workspace:."
+  resolution: "@tndgoat/rncomponent@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^17.0.2
     "@evilmartians/lefthook": ^1.5.0
@@ -6491,9 +6491,9 @@ __metadata:
   linkType: hard
 
 "flow-parser@npm:0.*":
-  version: 0.253.0
-  resolution: "flow-parser@npm:0.253.0"
-  checksum: aec28d36de6847d1f110c6106aab4c18533cec2f9c4f18f93a9f879a61b725c8fb91f2a409b3533690aaa4915d98a6b134311cd83ee9b835b5c9dd4e26b3ac10
+  version: 0.254.0
+  resolution: "flow-parser@npm:0.254.0"
+  checksum: 2f538681e036432bf377bacb200f288da559f87e49dad34cd9bb875cde5dcbb5dfdc38b3d791ef55f4de8350a0eda96fcc828a9d683905612781bb259a8dc195
   languageName: node
   linkType: hard
 

@@ -1,5 +1,5 @@
 {
-  "name": "@tndgoat/rncomponent",
+  "name": "@tndgoat/rncomponents",
   "version": "1.0.0",
   "description": "React Native Components",
   "main": "lib/commonjs/index",
@@ -48,14 +48,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tndgoat/components.git"
+    "url": "git+https://github.com/tndgoat/rncomponents.git"
   },
   "author": "tndgoat <tungnd.goat@gmail.com> (https://github.com/tndgoat)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tndgoat/components/issues"
+    "url": "https://github.com/tndgoat/rncomponents/issues"
   },
-  "homepage": "https://rncomponent.com",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
