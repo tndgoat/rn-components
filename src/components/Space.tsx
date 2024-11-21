@@ -1,12 +1,15 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from 'react';
+import { View } from 'react-native';
 
-const Space = () => {
-  return (
-    <View>
-      <Text>Space</Text>
-    </View>
-  )
-}
+type Props = {
+  width?: number;
+  height?: number;
+};
 
-export default Space
+const Space = (props: Props) => {
+  const { width, height } = props;
+
+  return <View style={{ width, height }} />;
+};
+
+export default Space;

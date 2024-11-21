@@ -1,12 +1,15 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View } from 'react-native';
+import React, { type ReactNode } from 'react';
 
-const Col = () => {
-  return (
-    <View>
-      <Text>Col</Text>
-    </View>
-  )
-}
+type Props = {
+  flex?: number;
+  children: ReactNode;
+};
 
-export default Col
+const Col = (props: Props) => {
+  const { flex, children } = props;
+
+  return <View style={{ flex: flex ?? 1 }}>{children}</View>;
+};
+
+export default Col;
