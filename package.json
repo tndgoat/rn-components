@@ -47,6 +47,7 @@
   "bugs": {
     "url": "https://github.com/tndgoat/rncomponents/issues"
   },
+  "homepage": "https://rncomponents.com",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
