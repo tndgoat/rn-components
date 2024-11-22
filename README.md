@@ -1,5 +1,11 @@
 # React Native Components
 
+## Installation
+
+```bash
+  npm install @tndgoat/rncomponents
+```
+
 ## References
 
 - [Publish to NPM with GitHub Actions](https://youtu.be/H3iO8sbvUQg?si=Ofwui8vt10jfVOlw)
