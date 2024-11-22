@@ -1,10 +1,10 @@
 import React, { type ReactNode } from 'react';
 import {
-  type FlexAlignType,
-  type StyleProp,
   StyleSheet,
   TouchableOpacity,
   View,
+  type FlexAlignType,
+  type StyleProp,
   type ViewStyle,
 } from 'react-native';
 

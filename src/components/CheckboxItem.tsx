@@ -1,4 +1,3 @@
-import CheckBox from '@react-native-community/checkbox';
 import React, { useState, type ReactNode } from 'react';
 import {
   Text,
@@ -8,6 +7,7 @@ import {
   type TextStyle,
   type ViewStyle,
 } from 'react-native';
+import CheckBox from '@react-native-community/checkbox';
 
 interface CheckBoxModel {
   children?: CheckBoxModel[];

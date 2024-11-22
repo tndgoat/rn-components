@@ -1,17 +1,17 @@
+import React, { useState, type ReactNode } from 'react';
 import {
+  ActivityIndicator,
+  Dimensions,
   View,
   TouchableOpacity,
   type StyleProp,
   type ViewStyle,
-  Dimensions,
-  ActivityIndicator,
 } from 'react-native';
-import React, { useState, type ReactNode } from 'react';
-import type { MenuItem } from '../models/MenuProps';
-import { globalStyles } from '../styles/globalStyles';
-import Text from './Text';
-import Row from './Row';
 import { colors } from '../colors/colors';
+import { globalStyles } from '../styles/globalStyles';
+import type { MenuItem } from '../models/MenuProps';
+import Row from './Row';
+import Text from './Text';
 
 export type DropdownProps = {
   children: ReactNode;

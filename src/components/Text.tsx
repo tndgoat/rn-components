@@ -1,5 +1,5 @@
-import * as ReactNative from 'react-native';
 import React from 'react';
+import * as ReactNative from 'react-native';
 import { type StyleProp, type TextStyle } from 'react-native';
 
 export interface TextProps {

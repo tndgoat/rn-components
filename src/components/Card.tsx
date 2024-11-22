@@ -1,8 +1,8 @@
 import React, { type ReactNode } from 'react';
 import {
-  type StyleProp,
   TouchableOpacity,
   View,
+  type StyleProp,
   type ViewStyle,
 } from 'react-native';
 import { globalStyles } from '../styles/globalStyles';
@@ -14,6 +14,7 @@ interface Props {
   styles?: StyleProp<ViewStyle>;
   shadowed?: boolean;
 }
+
 const Card = (props: Props) => {
   const { children, color, onPress, styles, shadowed } = props;
 

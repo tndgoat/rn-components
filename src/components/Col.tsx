@@ -1,5 +1,5 @@
-import { View } from 'react-native';
 import React, { type ReactNode } from 'react';
+import { View } from 'react-native';
 
 type Props = {
   flex?: number;

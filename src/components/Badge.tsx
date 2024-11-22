@@ -24,6 +24,7 @@ const Badge = (props: Props) => {
     show,
     overflowCount,
   } = props;
+
   const dotProps = (
     <View
       style={[

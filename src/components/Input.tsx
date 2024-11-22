@@ -1,20 +1,20 @@
 import React, { type ReactNode, useState } from 'react';
 import {
-  type KeyboardType,
-  type StyleProp,
   TextInput,
   TouchableOpacity,
   View,
+  type KeyboardType,
+  type StyleProp,
   type ViewStyle,
 } from 'react-native';
-import Text from './Text';
-import Row from './Row';
-import { globalStyles } from '../styles/globalStyles';
+import type { TextStyle } from 'react-native';
 import { colors } from '../colors/colors';
+import { globalStyles } from '../styles/globalStyles';
+import Row from './Row';
 import Space from './Space';
+import Text from './Text';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import IonIcons from 'react-native-vector-icons/Ionicons';
-import type { TextStyle } from 'react-native';
 
 interface Props {
   placeholder?: string;

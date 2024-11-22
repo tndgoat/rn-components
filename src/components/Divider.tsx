@@ -1,8 +1,8 @@
-import { StyleSheet, View, type StyleProp, type ViewStyle } from 'react-native';
 import React, { type ReactNode } from 'react';
+import { StyleSheet, View, type StyleProp, type ViewStyle } from 'react-native';
 import Row from './Row';
-import Text from './Text';
 import Space from './Space';
+import Text from './Text';
 
 type Props = {
   orientation?: 'center' | 'right' | 'left';
