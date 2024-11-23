@@ -1,4 +1,9 @@
 {
   "extends": "./tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "lib/typescript",
+    "rootDir": "src"
+  },
   "exclude": ["example"]
 }
