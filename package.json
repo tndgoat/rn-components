@@ -36,7 +36,10 @@
     "start": "npx react-native start"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "components",
+    "ios",
+    "android"
   ],
   "repository": {
     "type": "git",
